@@ -485,6 +485,10 @@ nav ul li a:hover {
   padding-top: 18px
 }
 
+.meet-customers:hover {
+  text-decoration: underline;
+}
+
 .marketing {
   display: flex;
   justify-content: center;
