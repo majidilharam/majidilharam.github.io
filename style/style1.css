@@ -31,15 +31,27 @@ nav ul {
 
 nav ul li a {
      text-decoration: none;
-      color: #333;
+     color: #333;
       font-size: 16px;
       font-weight: 400;
-      transition: color 0.3s ease;
+     transition: font-weight 0.2s ease, color 0.2s ease;
 }
 
 nav ul li a :hover {
-      color: #28a745;
+      color:#f0f0f0;
+      font-weight: bold;
     }
+
+    nav ul li a:hover {
+    font-weight: bold;
+    color: #1f2933;
+    
+    }
+
+  
+
+
+
 
 .ini-button {
       display: flex;
@@ -56,6 +68,13 @@ nav ul li a :hover {
 
     .login {
       color: #28a745;
+      padding: 8px 18px;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .login:hover {
+      background-color: #d1d5db;
     }
 
     .signup {
@@ -103,20 +122,20 @@ nav ul li a :hover {
   }
 
   .btn-register {
-      background-color: #4caf4f;
+      background-color:  #28a745;
       color: #fff;
       padding: 14px 32px 14px 32px;
       gap: 10px;
-      border-radius: 4px;
       cursor: pointer;
       font-size: medium;
-      transition: 0.3 ease;
       border: none;
       margin-top: 35px;
+      border-radius: 6px;
+      transition: background 0.3s ease ;
   }
 
-  .btn-register :hover {
-      background-color: #16a34a;
+  .btn-register:hover {
+      background-color:  #218838;
   }
 
   .tron-content {
@@ -256,7 +275,7 @@ align-items: center;
 justify-content: flex-start;
 background-color: #ffff;
 margin-top: 50px;
-padding-left: 144px;
+padding-left: 50px;
 gap: 20rem;
 }
 
@@ -279,30 +298,33 @@ gap: 20rem;
 }
 
 .btn-register2 {
-      background-color: #4caf4f;
-      color: #fff;
-      padding: 14px 32px 14px 32px;
-      gap: 10px;
-      border-radius: 4px;
-      cursor: pointer;
-      font-size: medium;
-      transition: 0.3 ease;
-      border: none;
-      margin-top: 35px;
-  }
+   background-color:  #28a745;
+   color: #fff;
+   padding: 14px 32px 14px 32px;
+   gap: 10px;
+   cursor: pointer;
+   font-size: medium;
+   border: none;
+   margin-top: 35px;
+   border-radius: 6px;
+   transition: background-color 0.3s ease; 
+}
 
-  .btn-register2 :hover {
-      background-color: #16a34a;
-  }
 
+.btn-register2:hover {
+  background-color:#218838;
+}
    
    .container {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       padding: 64px 500px 64px 230px;
       margin: auto;
       background-color:  #f5f7fa;
+      align-items: flex-start;
+      width: 100%;
+      padding: 60px 80px;
+      box-sizing: border-box;
 
     }
 
@@ -327,16 +349,20 @@ gap: 20rem;
 
    
     .stats {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 40px 60px;
-      text-align: left;
-    }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px 60px ;
+  margin-left: auto;  
+  text-align: right;
+ 
+  }
 
     .stat-item {
       display: flex;
       align-items: center;
       gap: 10px;
+       padding-right: 10rem; 
+
     }
 
 
@@ -385,18 +411,21 @@ gap: 20rem;
   }
 
   .btn-register3 {
-      background-color: #4caf4f;
+      background-color: #28a745;
       color: #fff;
       padding: 14px 32px 14px 32px;
       gap: 10px;
       border-radius: 4px;
       cursor: pointer;
       font-size: medium;
-      transition: 0.3 ease;
       border: none;
       margin-top: 35px;
+      transition: background-color 0.3s ease;
   }
-  
+  .btn-register3:hover {
+      background-color: #218838;
+  }
+
   .tron-keempat {
     display: flex;
     align-items: center;
@@ -419,8 +448,6 @@ gap: 20rem;
     display:flex;
     flex-direction: column;
     margin-top: 10px;
-
-
   }
 
   .text1 {
@@ -440,7 +467,7 @@ gap: 20rem;
 
   .line-logo2 {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     padding-top: 30px;
   }
   
@@ -561,20 +588,20 @@ gap: 20rem;
 }
 
 .btn-demo {
-      background-color: #4caf4f;
+      background-color:#28a745;
       color: #fff;
       padding: 14px 32px 14px 32px;
       gap: 10px;
       border-radius: 4px;
       cursor: pointer;
       font-size: medium;
-      transition: 0.3 ease;
       border: none;
       margin-top: 35px;
+      transition: background-color 0.3s ease;
   }
 
-  .btn-demo :hover {
-      background-color: #16a34a;
+  .btn-demo:hover {
+      background-color: #218838;
   }
 
   
