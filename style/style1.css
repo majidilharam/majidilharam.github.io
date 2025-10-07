@@ -37,11 +37,6 @@ nav ul li a {
      transition: font-weight 0.2s ease, color 0.2s ease;
 }
 
-nav ul li a :hover {
-      color:#f0f0f0;
-      font-weight: bold;
-    }
-
     nav ul li a:hover {
     font-weight: bold;
     color: #1f2933;
